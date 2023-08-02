@@ -17,3 +17,7 @@ export const AppProvider = ({ children }) =>{
               value={{isSidebarOpen, openSidebar, closeSidebar} }>{children}
           </AppContext.Provider>
 }
+
+export const useGlobalContext = () =>{
+  return useContext(AppContext)
+}
