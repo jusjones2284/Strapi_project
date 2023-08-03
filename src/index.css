@@ -334,6 +334,14 @@ Hero
   .hero-center{
     text-align: center;
   }
+
+  .hero-center p{
+    max-width: 35em;
+    margin: 0 auto;
+  }
+  .toggle-btn{
+    display: none;
+  }
   
 }
 /* 
