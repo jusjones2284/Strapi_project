@@ -8,9 +8,10 @@ const Navbar = () => {
     <nav>
       <div className="nav-center">
         <h3 className="logo">straspi</h3>
-        <button className="toggle-btn" onClick={openSidebar}>
+        <button className="toggle-btn" onClick={openSidebar}> 
           <FaBars />
         </button>
+        {/* {nav links later} */}
       </div>
     </nav>
   )
